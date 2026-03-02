@@ -115,7 +115,7 @@ def main():
 
     print("Задание 2\n")
     print("[Часть 1] : numpy")
-    np_base_ket:      ndarray = np.array([[0.],[1.]])
+    np_base_ket:    ndarray = np.array([[0.],[1.]])
     np_res1:        ndarray = np_Z(np_X(np_base_ket))
     np_res2:        ndarray = np_H(np_X(np_base_ket))
     np_res3:        ndarray = np_X(np_Z(np_H(np_base_ket)))
